@@ -1,12 +1,18 @@
 import React from 'react';
 import './App.css';
+import Dropdown from './Components/Dropdown/dropdown'
+import Table from './Components/Table/Table'
 
 function App() {
   return (
     <div className="App">
-      hello
+      <Dropdown/>
+      <Table/>
+     
     </div>
   );
 }
 
 export default App;
+
+
