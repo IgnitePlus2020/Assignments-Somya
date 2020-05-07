@@ -254,11 +254,50 @@ class Table extends React.Component{
          console.log(list)
          
      }
+    /*
+    <div>
+                {
+                  data.Skills.map((skill) => {
+                    return (
+                      <div>
+                        <h4>{skill.Area}</h4>
+                        <ul>
+                          {
+                            skill.SkillSet.map((skillDetail) => {
+                              return (
+                                  <li>
+                                    {skillDetail.Name}
+                                  </li>
+                              );
+                            })
+                          }
+                        </ul>
+                      </div>
+                    );
+                  })
+                } 
+            </div>*/
 
 render(){
     return(
 <div className="table">
-  hi
+  {
+    this.SHOP_DATA.map((item)=>
+    <div>{item.title}
+    <ul>
+      {item.items.map((sub)=>
+ <li>
+{sub.name}
+ </li>
+      )}
+     
+    </ul>
+    
+    </div>
+
+    )
+  }
+ 
 </div>
     );
 }
