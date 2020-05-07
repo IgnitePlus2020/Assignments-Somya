@@ -248,7 +248,7 @@ class Table extends React.Component{
        }
      ]
      componentDidMount(){
-         const list=this.SHOP_DATA.map((items)=>items.title)
+         const list=this.SHOP_DATA.map((items)=>items.items)
         
 
          console.log(list)
