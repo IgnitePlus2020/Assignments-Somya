@@ -1,6 +1,7 @@
 import React from 'react'
 import {CategoryWiseProduct} from '../CategoryWiseProduct/CategoryWiseProduct'
 import DATA from '../../Data/data'
+import './Dropdown.css';
 
 class Dropdown extends React.Component{
   constructor(){
@@ -26,7 +27,7 @@ class Dropdown extends React.Component{
 <div className="dropdown">
         <select  value="Category" onChange={(e)=>{  this.setState({searchValue:e.target.value},()=>console.log(this.state));}   }
         >
-        <option value="Category">category</option>
+        <option value="Category" style={{color:"red"}}>category</option>
         
         <option value="Hats">Hats</option>
         <option value="Sneaker">Sneakers</option>
