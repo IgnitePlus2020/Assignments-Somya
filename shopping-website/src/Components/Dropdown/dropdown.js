@@ -23,7 +23,7 @@ class Dropdown extends React.Component{
 
 
       return(
-<div>
+<div className="dropdown">
         <select  value="Category" onChange={(e)=>{  this.setState({searchValue:e.target.value},()=>console.log(this.state));}   }
         >
         <option value="Category">category</option>

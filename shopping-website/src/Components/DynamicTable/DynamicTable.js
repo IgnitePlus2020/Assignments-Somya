@@ -4,7 +4,7 @@ const DynamicTable = (props)=>{
     
     return (
         <div >
-        <table class="ui inverted red table">
+        <table class="ui inverted gray table">
   <thead>
     <tr><th>Food</th>
     <th>Calories</th>

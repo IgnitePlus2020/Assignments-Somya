@@ -14,7 +14,7 @@ export const CategoryWiseProduct=props=>(
      <div class="ui container">
   <p>
   <div >
-        <table class="ui inverted yellow table">
+        <table class="ui inverted LightGray table">
           <thead>
             <tr><th>Name</th>
             <th>Price</th>

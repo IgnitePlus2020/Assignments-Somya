@@ -1,6 +1,6 @@
 import React from 'react'
 import DATA from '../../Data/data'
-import { Card } from '../CardComponent/Card'
+
 import { CardList } from '../CardComponent/CardList'
 
 class Table extends React.Component{
@@ -15,10 +15,10 @@ class Table extends React.Component{
 
 render(){
     return(
-        <div className="table">
+        <div className="table" >
           {
               DATA.map((item)=>
-                <div>{item.title}
+                <div><h1 style={{color: "white", backgroundColor:"#D3D3D3" ,margin:"30px 70px" }}>{item.title}</h1>
                 <CardList obj={item}/>
                  <hr/>
                 

@@ -6,7 +6,8 @@ export const Card= props =>(
   <img src={props.url} alt="Avatar" ></img>
   <div class="container">
 <h4><b>{props.name}</b></h4> 
-    <p>{props.price}</p> 
+    <p>{props.price}</p>
+    <b></b> 
   </div>
 </div>
 )
