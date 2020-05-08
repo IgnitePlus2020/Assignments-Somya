@@ -1,6 +1,6 @@
 
 import React from 'react';
-import DATA from '../../Data/data'
+
 
 
 export const OrderForm=props=>(

@@ -1,5 +1,7 @@
 import React from 'react'
 import DATA from '../../Data/data'
+import { Card } from '../CardComponent/Card'
+import { CardList } from '../CardComponent/CardList'
 
 class Table extends React.Component{
   
@@ -7,8 +9,7 @@ class Table extends React.Component{
         // const list=this.SHOP_DATA.map((items)=>items.items)
         const list=DATA.map((items)=>items.items)
 
-         console.log(list)
-         
+         console.log(list)       
      }
     
 
@@ -18,13 +19,8 @@ render(){
           {
               DATA.map((item)=>
                 <div>{item.title}
-                  <ul>
-                    {item.items.map((sub)=>
-                      <li>
-                        {sub.name}
-                      </li>
-                    )}
-                  </ul>
+                <CardList obj={item}/>
+                 <hr/>
                 
                 </div>
 

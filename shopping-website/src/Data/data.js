@@ -1,4 +1,4 @@
-import React from 'react'
+
 const SHOP_DATA = [
     {
       id: 1,

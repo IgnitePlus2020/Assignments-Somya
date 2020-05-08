@@ -1,6 +1,6 @@
 
 import React from 'react';
-import DATA from '../../Data/data'
+
 
 
 export const CategoryWiseProduct=props=>(
@@ -30,7 +30,7 @@ export const CategoryWiseProduct=props=>(
           <td><a href={item.imageUrl}>{item.imageUrl}</a></td>
           </tr>
           </tbody>
-)
+        )
           }
           </table>
        
