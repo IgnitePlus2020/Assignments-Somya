@@ -27,7 +27,7 @@ export class CardList extends React.Component{
          //  this.props.obj.items.map(sub=>{
             filteredItems.map(sub=>{
        
-         return      <div className="card">
+         return      <div className="card" >
                         <img src={sub.imageUrl} alt="Avatar" ></img>
                            <div class="container">
                            <h4><b>{sub.name}</b></h4> 

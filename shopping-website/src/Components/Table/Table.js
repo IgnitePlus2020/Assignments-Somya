@@ -22,7 +22,6 @@ this.state={
     
 
 render(){
-
   
   
     return(
@@ -33,9 +32,8 @@ render(){
               DATA.map((item)=>
                 <div><h1 style={{color: "white", backgroundColor:"#D3D3D3" ,margin:"30px 70px",marginTop:"100px" }}>{item.title}</h1>
                    
-                   <h4>showing results for {this.props.search}</h4>
                   <CardList obj={item} search={this.props.search}/>
-                  <hr/>
+                  
          
           
                 </div>
