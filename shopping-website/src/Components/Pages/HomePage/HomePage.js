@@ -18,7 +18,7 @@ this.state={
       <span><div class="right menu" style={{backgroundColor:"white", marginRight:"8px",borderRadius:"6px"}}>
             <div class="item"  style={{backgroundColor:"white",padding:"10px",borderRadius:"18px" ,borderStyle:"solid",borderWidth:"1px",borderColor:"gray",width:"250px",float:"right" }}>
               <div class="ui transparent icon input" >
-                <input  type="text" placeholder="Search..." onChange={(e)=>{  this.setState({search:e.target.value},()=>console.log(this.state));}   }></input>
+                <input  type="text" placeholder="Search..." onChange={(e)=>{  this.setState({search:e.target.value},()=>console.log(this.state));}}></input>
                 <i class="search link icon"></i>
               </div>
             </div>

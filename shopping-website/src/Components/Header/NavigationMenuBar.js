@@ -16,7 +16,7 @@ import Card from '../CardComponent/Card'
     <i class="home icon"></i> Home
   </a>
   <a class="item" style={{color: "white", backgroundColor:"blue" ,padding:"0px 50px"}} href="/category">
-    <i class="tags icon"></i> Shop
+    <i class="table icon " style={{color:"white"}}></i> INVENTORY
   </a>
   <a class="item" style={{color: "white", backgroundColor:"blue" ,padding:"0px 50px"}} href="/order">
     <i class="shopping basket icon"></i> Order

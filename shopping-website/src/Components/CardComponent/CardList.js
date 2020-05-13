@@ -16,7 +16,7 @@ export class CardList extends React.Component{
       const filteredItems=this.props.obj.items.filter(item=>
          item.name.toLowerCase().includes((this.props.search || '').toLowerCase())
          );
-         console.log(filteredItems,"OOOOOOOOO")
+         console.log(filteredItems)
 
 
 

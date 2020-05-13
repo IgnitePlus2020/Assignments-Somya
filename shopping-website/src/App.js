@@ -7,7 +7,8 @@ import ShopCategory from './Components/Pages/ShopCategory/ShopCategory'
 import NavigationMenuBar from './Components/Header/NavigationMenuBar'
 
 import './App.css';
-import OrderFormPage from './Components/Pages/OrderFormPage/OrderFormPage';
+
+import CustomerForm from './Components/Form/CustomerForm';
 
 
 
@@ -21,7 +22,8 @@ function App() {
           
             <Route exact='true' path='/' component={HomePage}/>
             <Route exact='true' path='/category' component={ShopCategory}/>
-            <Route  exact='true' path='/order' component={OrderFormPage}/>
+            <Route  exact='true' path='/order' component={CustomerForm}/>
+           
           
 
         </div>

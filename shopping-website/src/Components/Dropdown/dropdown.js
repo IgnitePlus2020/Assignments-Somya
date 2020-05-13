@@ -27,7 +27,7 @@ class Dropdown extends React.Component{
 <div className="dropdown">
         <select  value="Category" onChange={(e)=>{  this.setState({searchValue:e.target.value},()=>console.log(this.state));}   }
         >
-        <option value="Category" style={{color:"red"}}>category</option>
+        <option value="Category" style={{color:"lightgray"}}>category</option>
         
         <option value="Hats">Hats</option>
         <option value="Sneaker">Sneakers</option>
@@ -51,3 +51,4 @@ class Dropdown extends React.Component{
   
 }
 export default  Dropdown
+
