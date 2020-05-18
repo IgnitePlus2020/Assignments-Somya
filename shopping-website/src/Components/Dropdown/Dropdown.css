@@ -1,0 +1,9 @@
+select {
+    text-transform: none;
+    background-color: white;
+    margin: 8px;
+    border-radius: 6px;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+}
