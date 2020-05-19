@@ -28,7 +28,7 @@ export class CardList extends React.Component {
                   <h4>
                     <b>{sub.name}</b>
                   </h4>
-                  <p>{sub.price}</p>
+                  <p>${sub.price}</p>
                   <b></b>
                 </div>
               </div>
