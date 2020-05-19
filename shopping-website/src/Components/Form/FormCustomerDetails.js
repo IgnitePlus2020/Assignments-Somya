@@ -86,11 +86,11 @@ export class FormCustomerDetails extends Component {
                       defaultValue={values.state}
                     >
                       <option value="">State</option>
-                      <option value="Virginia">Virginia</option>
-                      <option value="Washington">Washington</option>
-                      <option value="West Virginia">West Virginia</option>
-                      <option value="Wisconsin">Wisconsin</option>
-                      <option value="Wyoming">Wyoming</option>
+                      <option value="Kathmandu">Kathmandu</option>
+                      <option value="Maharashtra">Maharashtra</option>
+                      <option value="UP">UP</option>
+                      <option value="Colombo">Colombo</option>
+                      <option value="Karnataka">Karnataka</option>
                     </select>
                   </div>
                   <div class="field">
@@ -102,8 +102,7 @@ export class FormCustomerDetails extends Component {
                     >
                       <option value="">Country</option>
                       <option value="India">India</option>
-                      <option value="Bhutan">Bhutan</option>
-                      <option value="Bangladesh">Bangladesh</option>
+                      <option value="Sri lanka">Sri lanka</option>
                       <option value="nepal">nepal</option>
                     </select>
                   </div>
