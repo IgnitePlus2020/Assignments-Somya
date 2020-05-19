@@ -4,7 +4,7 @@ export class Success extends Component {
   render() {
     return (
       <div style={{ padding: "100px" }}>
-        <h1>Thankyou for shopping with us !!! </h1>
+        <h1>Thank you for shopping with us !!! </h1>
         <br />
         <a
           class="item"
