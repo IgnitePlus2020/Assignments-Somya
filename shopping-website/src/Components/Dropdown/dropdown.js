@@ -13,21 +13,19 @@ class Dropdown extends React.Component {
   }
 
   render() {
-    const {  AllProducts } = this.state;
+    const { searchValue, AllProducts } = this.state;
 
     const filteredProducts = AllProducts.filter((prod) =>
       prod.title.includes(this.state.searchValue || "")
     );
-    console.log(filteredProducts);
+    // console.log(filteredProducts)
 
     return (
       <div className="dropdown">
         <select
           value="Category"
           onChange={(e) => {
-            this.setState({ searchValue: e.target.value }, () =>
-              console.log(this.state)
-            );
+            this.setState({ searchValue: e.target.value });
           }}
         >
           <option value="Category" style={{ color: "lightgray" }}>
