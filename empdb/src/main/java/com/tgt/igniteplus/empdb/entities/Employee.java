@@ -1,4 +1,4 @@
-package com.tgit.igniteplus.empdb.entities;
+package com.tgt.igniteplus.empdb.entities;
 
 import javax.persistence.Column;
 

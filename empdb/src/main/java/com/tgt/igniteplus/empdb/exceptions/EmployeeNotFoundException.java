@@ -1,4 +1,4 @@
-package com.tgit.igniteplus.empdb.exceptions;
+package com.tgt.igniteplus.empdb.exceptions;
 
 public class EmployeeNotFoundException extends Exception{
 

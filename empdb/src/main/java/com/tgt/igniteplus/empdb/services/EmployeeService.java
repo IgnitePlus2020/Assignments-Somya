@@ -1,4 +1,4 @@
-package com.tgit.igniteplus.empdb.services;
+package com.tgt.igniteplus.empdb.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -9,9 +9,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.tgit.igniteplus.empdb.entities.Employee;
-import com.tgit.igniteplus.empdb.exceptions.EmployeeNotFoundException;
-import com.tgit.igniteplus.empdb.repositories.EmployeeRepository;
+import com.tgt.igniteplus.empdb.entities.Employee;
+import com.tgt.igniteplus.empdb.exceptions.EmployeeNotFoundException;
+import com.tgt.igniteplus.empdb.repositories.EmployeeRepository;
 
 @Service
 public class EmployeeService {

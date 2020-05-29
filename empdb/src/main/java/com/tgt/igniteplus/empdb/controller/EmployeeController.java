@@ -1,4 +1,4 @@
-package com.tgit.igniteplus.empdb.controller;
+package com.tgt.igniteplus.empdb.controller;
 
 import java.util.List;
 
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.tgit.igniteplus.empdb.entities.Employee;
-import com.tgit.igniteplus.empdb.exceptions.EmployeeNotFoundException;
-import com.tgit.igniteplus.empdb.services.EmployeeService;
+import com.tgt.igniteplus.empdb.entities.Employee;
+import com.tgt.igniteplus.empdb.exceptions.EmployeeNotFoundException;
+import com.tgt.igniteplus.empdb.services.EmployeeService;
 
 @RestController
 public class EmployeeController {
